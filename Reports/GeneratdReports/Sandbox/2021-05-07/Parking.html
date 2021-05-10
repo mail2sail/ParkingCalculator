@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/highcharts.js"></script>
+<script type="text/javascript" src="js/highcharts-3d.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Html Reports  - Tag: @Parking</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation" ><a href="step-overview.html">Steps</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>The ParkingCalculator Project</td>
+                          <td>Parking Calculator Build</td>
+                        <td>07 May 2021, 04:17</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Tag Report</h2>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table class="stats-table">
+
+        <thead>
+  <tr class="header dont-sort">
+        <th></th>
+    <th colspan="3">Scenarios</th>
+    <th colspan="7">Steps</th>
+    <th></th>
+    <th></th>
+  </tr>
+  <tr>
+    <th>Tag</th>
+        <th>Total</th>
+    <th>Passed</th>
+    <th>Failed</th>
+    <th>Total</th>
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="skipped">Skipped</th>
+    <th class="pending">Pending</th>
+    <th class="undefined">Undefined</th>
+    <th class="missing">Missing</th>
+    <th>Duration</th>
+    <th>Status</th>
+  </tr>
+</thead>
+
+        <tbody>
+        <tr>
+          <td class="tagname">@Parking</td>
+          <td>5</td>
+          <td>5</td>
+          <td>0</td>
+          <td>35</td>
+          <td>35</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="duration" data-value="106421467100">1m 46s 421 ms</td>
+          <td class="passed">Passed</td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="elements">
+        
+  <div class="element">
+          <div class="indention">
+        <a href="ParkingCalc-feature.html">View Feature</a> <i>Calculate different parking fees</i>
+      </div>
+    
+    
+<div class="tags indention">
+       <a href="Parking.html">@Parking</a>
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-777899692">
+      
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Calculate parkinf fee for &quot;TC001&quot;</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element-777899692" class="collapse collapsable-details ">
+      
+  <div class="inner-level hooks-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-36883680">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-36883680" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">stepDefinitions.setUp(Scenario)</span>
+                        
+  <span class="lead-duration duration">156 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-945747249">
+          
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-945747249" class="inner-level collapse collapsable-details ">
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">The user Opened the AUT.</span>
+  
+  <span class="lead-duration duration">5s 156 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-358866227">
+          <a>Output</a>
+      </div>
+      <div id="msg-358866227" class="collapse collapsable-details">
+        <pre><a href="E:\K2Range\NewProjectPhalu\TheCucksProject\Reports\GeneratdScreenShots\Sandbox\2021-05-07\Sandbox_2021-05-07_1620341150394.jpg" target="_blank">ScreenShot</a> </pre>
+      </div>
+    </div>
+  </div>
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">the user waits for the page to load.</span>
+  
+  <span class="lead-duration duration">5s 001 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the user puts the data for "TC001".</span>
+  
+  <span class="lead-duration duration">1s 013 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">the user waits for the page to load.</span>
+  
+  <span class="lead-duration duration">5s 007 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">submits the input data.</span>
+  
+  <span class="lead-duration duration">514 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">the user waits for the page to load.</span>
+  
+  <span class="lead-duration duration">5s 002 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">validate the outcome for "TC001".</span>
+  
+  <span class="lead-duration duration">079 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+  <div class="inner-level hooks-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-794563378">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-794563378" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">stepDefinitions.tearDown(Scenario)</span>
+                        
+  <span class="lead-duration duration">928 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="element">
+          <div class="indention">
+        <a href="ParkingCalc-feature.html">View Feature</a> <i>Calculate different parking fees</i>
+      </div>
+    
+    
+<div class="tags indention">
+       <a href="Parking.html">@Parking</a>
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-777899693">
+      
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Calculate parkinf fee for &quot;TC002&quot;</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element-777899693" class="collapse collapsable-details ">
+      
+  <div class="inner-level hooks-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-630122462">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-630122462" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">stepDefinitions.setUp(Scenario)</span>
+                        
+  <span class="lead-duration duration">000 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-582819897">
+          
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-582819897" class="inner-level collapse collapsable-details ">
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">The user Opened the AUT.</span>
+  
+  <span class="lead-duration duration">4s 370 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg--993814353">
+          <a>Output</a>
+      </div>
+      <div id="msg--993814353" class="collapse collapsable-details">
+        <pre><a href="E:\K2Range\NewProjectPhalu\TheCucksProject\Reports\GeneratdScreenShots\Sandbox\2021-05-07\Sandbox_2021-05-07_1620341172332.jpg" target="_blank">ScreenShot</a> </pre>
+      </div>
+    </div>
+  </div>
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">the user waits for the page to load.</span>
+  
+  <span class="lead-duration duration">5s 012 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the user puts the data for "TC002".</span>
+  
+  <span class="lead-duration duration">1s 113 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">the user waits for the page to load.</span>
+  
+  <span class="lead-duration duration">5s 002 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">submits the input data.</span>
+  
+  <span class="lead-duration duration">533 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">the user waits for the page to load.</span>
+  
+  <span class="lead-duration duration">5s 005 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">validate the outcome for "TC002".</span>
+  
+  <span class="lead-duration duration">078 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+  <div class="inner-level hooks-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-727018418">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-727018418" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">stepDefinitions.tearDown(Scenario)</span>
+                        
+  <span class="lead-duration duration">843 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="element">
+          <div class="indention">
+        <a href="ParkingCalc-feature.html">View Feature</a> <i>Calculate different parking fees</i>
+      </div>
+    
+    
+<div class="tags indention">
+       <a href="Parking.html">@Parking</a>
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-777899694">
+      
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Calculate parkinf fee for &quot;TC003&quot;</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element-777899694" class="collapse collapsable-details ">
+      
+  <div class="inner-level hooks-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-810672306">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-810672306" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">stepDefinitions.setUp(Scenario)</span>
+                        
+  <span class="lead-duration duration">000 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-1479100519">
+          
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-1479100519" class="inner-level collapse collapsable-details ">
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">The user Opened the AUT.</span>
+  
+  <span class="lead-duration duration">4s 297 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg--150797137">
+          <a>Output</a>
+      </div>
+      <div id="msg--150797137" class="collapse collapsable-details">
+        <pre><a href="E:\K2Range\NewProjectPhalu\TheCucksProject\Reports\GeneratdScreenShots\Sandbox\2021-05-07\Sandbox_2021-05-07_1620341194233.jpg" target="_blank">ScreenShot</a> </pre>
+      </div>
+    </div>
+  </div>
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">the user waits for the page to load.</span>
+  
+  <span class="lead-duration duration">5s</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the user puts the data for "TC003".</span>
+  
+  <span class="lead-duration duration">1s 037 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">the user waits for the page to load.</span>
+  
+  <span class="lead-duration duration">5s 007 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">submits the input data.</span>
+  
+  <span class="lead-duration duration">453 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">the user waits for the page to load.</span>
+  
+  <span class="lead-duration duration">5s 001 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">validate the outcome for "TC003".</span>
+  
+  <span class="lead-duration duration">056 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+  <div class="inner-level hooks-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-753162875">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-753162875" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">stepDefinitions.tearDown(Scenario)</span>
+                        
+  <span class="lead-duration duration">880 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="element">
+          <div class="indention">
+        <a href="ParkingCalc-feature.html">View Feature</a> <i>Calculate different parking fees</i>
+      </div>
+    
+    
+<div class="tags indention">
+       <a href="Parking.html">@Parking</a>
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-777899695">
+      
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Calculate parkinf fee for &quot;TC004&quot;</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element-777899695" class="collapse collapsable-details ">
+      
+  <div class="inner-level hooks-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-1415469015">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-1415469015" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">stepDefinitions.setUp(Scenario)</span>
+                        
+  <span class="lead-duration duration">000 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-1690294013">
+          
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-1690294013" class="inner-level collapse collapsable-details ">
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">The user Opened the AUT.</span>
+  
+  <span class="lead-duration duration">4s 209 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg--897806244">
+          <a>Output</a>
+      </div>
+      <div id="msg--897806244" class="collapse collapsable-details">
+        <pre><a href="E:\K2Range\NewProjectPhalu\TheCucksProject\Reports\GeneratdScreenShots\Sandbox\2021-05-07\Sandbox_2021-05-07_1620341215890.jpg" target="_blank">ScreenShot</a> </pre>
+      </div>
+    </div>
+  </div>
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">the user waits for the page to load.</span>
+  
+  <span class="lead-duration duration">5s 004 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the user puts the data for "TC004".</span>
+  
+  <span class="lead-duration duration">1s 017 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">the user waits for the page to load.</span>
+  
+  <span class="lead-duration duration">5s 008 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">submits the input data.</span>
+  
+  <span class="lead-duration duration">512 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">the user waits for the page to load.</span>
+  
+  <span class="lead-duration duration">5s 010 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">validate the outcome for "TC004".</span>
+  
+  <span class="lead-duration duration">087 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+  <div class="inner-level hooks-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-521746054">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-521746054" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">stepDefinitions.tearDown(Scenario)</span>
+                        
+  <span class="lead-duration duration">817 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="element">
+          <div class="indention">
+        <a href="ParkingCalc-feature.html">View Feature</a> <i>Calculate different parking fees</i>
+      </div>
+    
+    
+<div class="tags indention">
+       <a href="Parking.html">@Parking</a>
+  </div>
+
+
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-777899696">
+      
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Calculate parkinf fee for &quot;TC005&quot;</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </span>
+    <div class="description indention"></div>
+
+    <div id="element-777899696" class="collapse collapsable-details ">
+      
+  <div class="inner-level hooks-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-859617558">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="before-859617558" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+                          <span class="location name">stepDefinitions.setUp(Scenario)</span>
+                        
+  <span class="lead-duration duration">000 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+
+      <div class="steps inner-level">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-233343686">
+          
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+        </div>
+
+        <div id="steps-233343686" class="inner-level collapse collapsable-details ">
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">The user Opened the AUT.</span>
+  
+  <span class="lead-duration duration">4s 057 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-1309135640">
+          <a>Output</a>
+      </div>
+      <div id="msg-1309135640" class="collapse collapsable-details">
+        <pre><a href="E:\K2Range\NewProjectPhalu\TheCucksProject\Reports\GeneratdScreenShots\Sandbox\2021-05-07\Sandbox_2021-05-07_1620341237410.jpg" target="_blank">ScreenShot</a> </pre>
+      </div>
+    </div>
+  </div>
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">the user waits for the page to load.</span>
+  
+  <span class="lead-duration duration">5s 013 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">the user puts the data for "TC005".</span>
+  
+  <span class="lead-duration duration">982 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">the user waits for the page to load.</span>
+  
+  <span class="lead-duration duration">5s 006 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">submits the input data.</span>
+  
+  <span class="lead-duration duration">1s 619 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">the user waits for the page to load.</span>
+  
+  <span class="lead-duration duration">5s 010 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                      <div class="step">
+              
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">validate the outcome for "TC005".</span>
+  
+  <span class="lead-duration duration">135 ms</span>
+
+  </div>
+
+              
+
+
+              
+              
+
+              
+
+            </div>
+                  </div>
+      </div>
+
+      
+  <div class="inner-level hooks-after">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-2021854618">
+      
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+    </div>
+
+    <div id="after-2021854618" class="inner-level collapse collapsable-details ">
+              <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">After</span>
+                          <span class="location name">stepDefinitions.tearDown(Scenario)</span>
+                        
+  <span class="lead-duration duration">833 ms</span>
+
+          </div>
+
+                      
+
+                  </div>
+          </div>
+  </div>
+
+    </div>
+  </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+      <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+      <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Cucumber-JVM Reports</a>
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

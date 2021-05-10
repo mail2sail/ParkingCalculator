@@ -1,0 +1,733 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 156290600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Calculate parkinf fee for \"TC001\"",
+        "description": "",
+        "id": "calculate-different-parking-fees;calculate-parkinf-fee-for-\"\u003ctestcase\u003e\";;2",
+        "after": [
+          {
+            "result": {
+              "duration": 928703600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "\u003ca href\u003d\"E:\\K2Range\\NewProjectPhalu\\TheCucksProject\\Reports\\GeneratdScreenShots\\Sandbox\\2021-05-07\\Sandbox_2021-05-07_1620341150394.jpg\" target\u003d\"_blank\"\u003eScreenShot\u003c/a\u003e "
+            ],
+            "result": {
+              "duration": 5156011200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user Opened the AUT.",
+            "match": {
+              "location": "stepDefinitions.the_user_Opened_to_AUT()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5001763000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user waits for the page to load.",
+            "match": {
+              "location": "elementOperation.the_user_waits_for_the_page_to_load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1013177100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user puts the data for \"TC001\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TC001",
+                  "offset": 28
+                }
+              ],
+              "location": "SFSteps.the_user_puts_the_data_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5007927700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user waits for the page to load.",
+            "match": {
+              "location": "elementOperation.the_user_waits_for_the_page_to_load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 514114200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "submits the input data.",
+            "match": {
+              "location": "SFSteps.submits_the_input_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5002044200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user waits for the page to load.",
+            "match": {
+              "location": "elementOperation.the_user_waits_for_the_page_to_load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 79298800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "validate the outcome for \"TC001\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TC001",
+                  "offset": 26
+                }
+              ],
+              "location": "SFSteps.validate_the_outcome_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Parking"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Calculate parkinf fee for \"TC002\"",
+        "description": "",
+        "id": "calculate-different-parking-fees;calculate-parkinf-fee-for-\"\u003ctestcase\u003e\";;3",
+        "after": [
+          {
+            "result": {
+              "duration": 843594700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "\u003ca href\u003d\"E:\\K2Range\\NewProjectPhalu\\TheCucksProject\\Reports\\GeneratdScreenShots\\Sandbox\\2021-05-07\\Sandbox_2021-05-07_1620341172332.jpg\" target\u003d\"_blank\"\u003eScreenShot\u003c/a\u003e "
+            ],
+            "result": {
+              "duration": 4370406600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user Opened the AUT.",
+            "match": {
+              "location": "stepDefinitions.the_user_Opened_to_AUT()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5012162800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user waits for the page to load.",
+            "match": {
+              "location": "elementOperation.the_user_waits_for_the_page_to_load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1113669400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user puts the data for \"TC002\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TC002",
+                  "offset": 28
+                }
+              ],
+              "location": "SFSteps.the_user_puts_the_data_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5002841300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user waits for the page to load.",
+            "match": {
+              "location": "elementOperation.the_user_waits_for_the_page_to_load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 533298400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "submits the input data.",
+            "match": {
+              "location": "SFSteps.submits_the_input_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5005445900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user waits for the page to load.",
+            "match": {
+              "location": "elementOperation.the_user_waits_for_the_page_to_load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 78306700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "validate the outcome for \"TC002\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TC002",
+                  "offset": 26
+                }
+              ],
+              "location": "SFSteps.validate_the_outcome_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Parking"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 43000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Calculate parkinf fee for \"TC003\"",
+        "description": "",
+        "id": "calculate-different-parking-fees;calculate-parkinf-fee-for-\"\u003ctestcase\u003e\";;4",
+        "after": [
+          {
+            "result": {
+              "duration": 880583800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "\u003ca href\u003d\"E:\\K2Range\\NewProjectPhalu\\TheCucksProject\\Reports\\GeneratdScreenShots\\Sandbox\\2021-05-07\\Sandbox_2021-05-07_1620341194233.jpg\" target\u003d\"_blank\"\u003eScreenShot\u003c/a\u003e "
+            ],
+            "result": {
+              "duration": 4297846800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user Opened the AUT.",
+            "match": {
+              "location": "stepDefinitions.the_user_Opened_to_AUT()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5000676000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user waits for the page to load.",
+            "match": {
+              "location": "elementOperation.the_user_waits_for_the_page_to_load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1037857100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user puts the data for \"TC003\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TC003",
+                  "offset": 28
+                }
+              ],
+              "location": "SFSteps.the_user_puts_the_data_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5007291900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user waits for the page to load.",
+            "match": {
+              "location": "elementOperation.the_user_waits_for_the_page_to_load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 453608300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "submits the input data.",
+            "match": {
+              "location": "SFSteps.submits_the_input_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5001109800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user waits for the page to load.",
+            "match": {
+              "location": "elementOperation.the_user_waits_for_the_page_to_load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 56222800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "validate the outcome for \"TC003\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TC003",
+                  "offset": 26
+                }
+              ],
+              "location": "SFSteps.validate_the_outcome_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Parking"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 17200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Calculate parkinf fee for \"TC004\"",
+        "description": "",
+        "id": "calculate-different-parking-fees;calculate-parkinf-fee-for-\"\u003ctestcase\u003e\";;5",
+        "after": [
+          {
+            "result": {
+              "duration": 817014400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "\u003ca href\u003d\"E:\\K2Range\\NewProjectPhalu\\TheCucksProject\\Reports\\GeneratdScreenShots\\Sandbox\\2021-05-07\\Sandbox_2021-05-07_1620341215890.jpg\" target\u003d\"_blank\"\u003eScreenShot\u003c/a\u003e "
+            ],
+            "result": {
+              "duration": 4209706700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user Opened the AUT.",
+            "match": {
+              "location": "stepDefinitions.the_user_Opened_to_AUT()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5004249400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user waits for the page to load.",
+            "match": {
+              "location": "elementOperation.the_user_waits_for_the_page_to_load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1017744200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user puts the data for \"TC004\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TC004",
+                  "offset": 28
+                }
+              ],
+              "location": "SFSteps.the_user_puts_the_data_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5008365300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user waits for the page to load.",
+            "match": {
+              "location": "elementOperation.the_user_waits_for_the_page_to_load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 512645500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "submits the input data.",
+            "match": {
+              "location": "SFSteps.submits_the_input_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5010034700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user waits for the page to load.",
+            "match": {
+              "location": "elementOperation.the_user_waits_for_the_page_to_load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87889300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "validate the outcome for \"TC004\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TC004",
+                  "offset": 26
+                }
+              ],
+              "location": "SFSteps.validate_the_outcome_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Parking"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 29800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.setUp(Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Calculate parkinf fee for \"TC005\"",
+        "description": "",
+        "id": "calculate-different-parking-fees;calculate-parkinf-fee-for-\"\u003ctestcase\u003e\";;6",
+        "after": [
+          {
+            "result": {
+              "duration": 833238100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "\u003ca href\u003d\"E:\\K2Range\\NewProjectPhalu\\TheCucksProject\\Reports\\GeneratdScreenShots\\Sandbox\\2021-05-07\\Sandbox_2021-05-07_1620341237410.jpg\" target\u003d\"_blank\"\u003eScreenShot\u003c/a\u003e "
+            ],
+            "result": {
+              "duration": 4057831000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user Opened the AUT.",
+            "match": {
+              "location": "stepDefinitions.the_user_Opened_to_AUT()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5013040100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user waits for the page to load.",
+            "match": {
+              "location": "elementOperation.the_user_waits_for_the_page_to_load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 982632800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user puts the data for \"TC005\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TC005",
+                  "offset": 28
+                }
+              ],
+              "location": "SFSteps.the_user_puts_the_data_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5006551500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user waits for the page to load.",
+            "match": {
+              "location": "elementOperation.the_user_waits_for_the_page_to_load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1619627400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "submits the input data.",
+            "match": {
+              "location": "SFSteps.submits_the_input_data()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5010572600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user waits for the page to load.",
+            "match": {
+              "location": "elementOperation.the_user_waits_for_the_page_to_load()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 135496600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "validate the outcome for \"TC005\".",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TC005",
+                  "offset": 26
+                }
+              ],
+              "location": "SFSteps.validate_the_outcome_for(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Parking"
+          }
+        ]
+      }
+    ],
+    "name": "Calculate different parking fees",
+    "description": "",
+    "id": "calculate-different-parking-fees",
+    "keyword": "Feature",
+    "uri": "ParkingCalc.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Parking"
+      }
+    ]
+  }
+]

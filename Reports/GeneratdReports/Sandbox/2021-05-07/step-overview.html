@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/highcharts.js"></script>
+<script type="text/javascript" src="js/highcharts-3d.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Html Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>The ParkingCalculator Project</td>
+                          <td>Parking Calculator Build</td>
+                        <td>07 May 2021, 04:17</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Steps Statistics</h2>
+              <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">SFSteps.submits_the_input_data()</td>
+                <td>5</td>
+                <td class="duration" data-value="3633293800">3s 633 ms</td>
+                <td class="duration" data-value="726658760">726 ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SFSteps.the_user_puts_the_data_for(String)</td>
+                <td>5</td>
+                <td class="duration" data-value="5165080600">5s 165 ms</td>
+                <td class="duration" data-value="1033016120">1s 033 ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">SFSteps.validate_the_outcome_for(String)</td>
+                <td>5</td>
+                <td class="duration" data-value="437214200">437 ms</td>
+                <td class="duration" data-value="87442840">087 ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">elementOperation.the_user_waits_for_the_page_to_load()</td>
+                <td>15</td>
+                <td class="duration" data-value="75094076200">1m 15s 094 ms</td>
+                <td class="duration" data-value="5006271746">5s 006 ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinitions.setUp(Scenario)</td>
+                <td>5</td>
+                <td class="duration" data-value="156398300">156 ms</td>
+                <td class="duration" data-value="31279660">031 ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinitions.tearDown(Scenario)</td>
+                <td>5</td>
+                <td class="duration" data-value="4303134600">4s 303 ms</td>
+                <td class="duration" data-value="860626920">860 ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">stepDefinitions.the_user_Opened_to_AUT()</td>
+                <td>5</td>
+                <td class="duration" data-value="22091802300">22s 091 ms</td>
+                <td class="duration" data-value="4418360460">4s 418 ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot>
+            <tr>
+              <td>7</td>
+              <td>45</td>
+              <td class="duration">1m 50s 881 ms</td>
+              <td class="duration">2s 464 ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
+          </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+      <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+      <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Cucumber-JVM Reports</a>
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
